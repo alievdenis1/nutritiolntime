@@ -1,12 +1,11 @@
 <template>
 	<div>
-		<CreateRecipeGptForm />
+		<CollectionTabMain />
 	</div>
 </template>
 
 <script setup lang="ts">
-import { CreateRecipeGptForm } from 'features/CreateRecipeGpt/ui'
-
+import { CollectionTabMain } from '@/entities/Сollection/ui'
 </script>
 
 <style scoped>

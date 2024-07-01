@@ -1,0 +1,22 @@
+    {
+        "ru": {
+            "basicInformation": "Основная информация",
+            "uploadMainPhoto": "Загрузить главную фотографию",
+            "additionalPhotosInfo": "Дополнительные фото можно будет загрузить при заполнении шагов рецепта",
+            "recipeTitlePlaceholder": "Название рецепта *",
+            "recipeDescriptionPlaceholder": "Описание рецепта *",
+            "dishCategory": "Категория блюда",
+            "cuisineNationality": "Национальность кухни",
+            "dietType": "Тип диеты"
+        },
+        "en": {
+            "basicInformation": "Basic information",
+            "uploadMainPhoto": "Upload main photo",
+            "additionalPhotosInfo": "Additional photos can be uploaded when filling out the recipe steps",
+            "recipeTitlePlaceholder": "Recipe title *",
+            "recipeDescriptionPlaceholder": "Recipe description *",
+            "dishCategory": "Dish category",
+            "cuisineNationality": "Cuisine nationality",
+            "dietType": "Diet type"
+        }
+    }

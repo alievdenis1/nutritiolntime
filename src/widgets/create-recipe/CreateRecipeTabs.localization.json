@@ -1,0 +1,14 @@
+{
+    "ru": {
+        "createRecipe": "Создание рецепта",
+        "manualCreation": "Самостоятельно",
+        "aiCreation": "С помощью AI",
+        "aiDescription": "У меня есть идея рецепта, но я ещё не знаю его детали"
+    },
+    "en": {
+        "createRecipe": "Create Recipe",
+        "manualCreation": "Manual Creation",
+        "aiCreation": "With AI",
+        "aiDescription": "I have an idea for a recipe, but I don't know the details yet"
+    }
+}

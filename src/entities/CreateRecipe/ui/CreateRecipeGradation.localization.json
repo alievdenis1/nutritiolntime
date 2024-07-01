@@ -1,0 +1,16 @@
+{
+    "ru": {
+        "spicinessAndDifficulty": "Сложность и острота",
+        "spiciness": "Острота",
+        "spicinessDescription": "Средняя острота. Скорее острое блюдо чем нет",
+        "difficulty": "Сложность приготовления",
+        "difficultyDescription": "Среднее по сложности блюдо"
+    },
+    "en": {
+        "spicinessAndDifficulty": "Spiciness and Difficulty",
+        "spiciness": "Spiciness",
+        "spicinessDescription": "Moderate spiciness. More likely spicy than not",
+        "difficulty": "Cooking Difficulty",
+        "difficultyDescription": "Medium difficulty dish"
+    }
+}

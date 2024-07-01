@@ -1,1 +1,0 @@
-export { default as ModalRecipeCreation } from './ModalRecipeCreation.vue'

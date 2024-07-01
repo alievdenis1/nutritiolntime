@@ -1,1 +1,1 @@
-export { default as PlanTabMain } from './CollectionTabMain.vue'
+export { default as CollectionTabMain } from './CollectionTabMain.vue'

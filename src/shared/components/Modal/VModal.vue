@@ -7,7 +7,7 @@
 	>
 		<div
 			v-show="isVisible"
-			class="fixed inset-0 z-40 bg-black bg-opacity-40 flex items-end justify-center px-4"
+			class="fixed inset-0 z-40 bg-black bg-opacity-40 flex items-end justify-center"
 		>
 			<transition name="modal">
 				<div
@@ -49,7 +49,7 @@ const enableScroll = () => {
 
 <style scoped>
 .width-custom{
-	max-width: 350px;
+	max-width: 375px;
 	width: 100%;
 }
 </style>

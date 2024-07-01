@@ -1,12 +1,13 @@
 <template>
 	<div>
-		<CreateRecipe />
+		<CreateRecipeTabs />
 	</div>
 </template>
 
 <script setup lang="ts">
-import { CreateRecipe } from 'features/CreateRecipe/ui'
-
+import { CreateRecipeTabs } from '../../widgets/create-recipe'
 </script>
 
-<style lang="scss" scoped></style>
+<style scoped lang="scss">
+
+</style>

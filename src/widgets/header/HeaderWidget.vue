@@ -13,16 +13,16 @@
 			>
 
 			<div class="flex items-center gap-[8px]">
-				<v-button class="settings-button py-[10px] px-[16px] relative">
+				<button class="settings-button py-[10px] px-[16px] relative">
 					<IconWallet />
 
 					<div
 						id="ton-connect-button-root"
 						class="absolute opacity-0 left-0"
 					/>
-				</v-button>
+				</button>
 
-				<v-button
+				<button
 					aria-label="Settings"
 					class="settings-button p-[12px]"
 					role="button"
@@ -37,20 +37,20 @@
 						v-if="languageDropDownOpen"
 						class="language-dropdown"
 					>
-						<v-button
+						<button
 							:class="{ 'active': localeStore.currentLocale === 'ru' }"
 							@click="localeStore.setLocale('ru')"
 						>
 							RUS
-						</v-button>
-						<v-button
+						</button>
+						<button
 							:class="{ 'active': localeStore.currentLocale === 'en' }"
 							@click="localeStore.setLocale('en')"
 						>
 							ENG
-						</v-button>
+						</button>
 					</div>
-				</v-button>
+				</button>
 			</div>
 		</header>
 	</div>
@@ -62,7 +62,6 @@ import { Locales, useLocaleStore, useTranslation } from 'shared/lib/i18n'
 import Localization from './HeaderWidget.localization.json'
 import { onClickOutside } from '@vueuse/core'
 import WebApp from '@twa-dev/sdk'
-
 import { useTWA } from 'entities/Session/api/useTWA'
 import { useAuthButton } from 'entities/Session/api/useAuthButton'
 
@@ -103,7 +102,7 @@ onMounted(() => {
 .language-dropdown {
 	@apply absolute left-[-64px] top-[55px] z-20 flex flex-col border-[#1C1C1C0D] text-[#1C1C1C];
 
-	v-button {
+	button {
 		padding: 14px 0px 14px 16px;
 		border: 1px solid #1C1C1C0D;
 		background: #FFFFFF;
@@ -132,4 +131,4 @@ onMounted(() => {
 		@apply justify-between
 	}
 }
-</style>@/shared/components/Message
+</style>

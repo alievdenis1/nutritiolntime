@@ -1,11 +1,12 @@
+
 <template>
 	<div>
-		<PlanTabMain />
+		gpt
 	</div>
 </template>
 
 <script setup lang="ts">
-import { PlanTabMain } from 'entities/Сollection/ui'
+
 </script>
 
 <style scoped>

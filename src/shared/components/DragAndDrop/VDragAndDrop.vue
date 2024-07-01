@@ -56,9 +56,9 @@
 				</div>
 			</div>
 		</div>
-		<v-button class="cursor-pointer px-[13px] py-[13px] rounded-[100px] bg-lightGray ml-[8px]">
+		<button class="cursor-pointer px-[13px] py-[13px] rounded-[100px] bg-lightGray ml-[8px]">
 			<IconPlus :icon-color="'#319A6E'" />
-		</v-button>
+		</button>
 	</div>
 </template>
 

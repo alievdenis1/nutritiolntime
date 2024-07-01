@@ -32,7 +32,8 @@ export default {
         '1': '1px',
       },
       boxShadow: {
-        DEFAULT: '0px 3px 2px rgba(237, 216, 194, 0.35)'
+        DEFAULT: '0px 3px 2px rgba(237, 216, 194, 0.35)',
+        custom: '0px 0px 34px 0px #00000014'
       },
       fontFamily: {
         sans: ['Roboto', 'sans-serif']

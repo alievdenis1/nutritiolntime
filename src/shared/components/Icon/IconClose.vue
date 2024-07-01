@@ -8,13 +8,17 @@
 	>
 		<path
 			d="M8.5859 10.0001L0.792969 2.20718L2.20718 0.792969L10.0001 8.58582L17.793 0.792969L19.2072 2.20718L11.4143 10.0001L19.2072 17.7929L17.793 19.2072L10.0001 11.4143L2.20718 19.2072L0.792969 17.7929L8.5859 10.0001Z"
-			fill="black"
+			:fill="iconColor"
 		/>
 	</svg>
 </template>
 
 <script setup lang="ts">
-
+withDefaults(defineProps<{
+	iconColor: string,
+}>(), {
+	iconColor: '#000000'
+})
 </script>
 
 <style scoped>

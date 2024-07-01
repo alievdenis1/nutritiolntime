@@ -1,1 +1,0 @@
-export { default as CreateRecipeGptForm } from './CreateRecipeGptForm.vue'

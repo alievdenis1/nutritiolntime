@@ -63,7 +63,7 @@
 					</p>
 				</div>
 				<div class="flex justify-center items-center gap-[4px] ">
-					<IconHeart />
+					<IconHeart icon-color="#9F9FA0" />
 					<IconFavorites />
 				</div>
 			</div>
