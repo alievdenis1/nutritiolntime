@@ -56,7 +56,10 @@
 import { ref, computed, onMounted, onUnmounted, watch } from 'vue'
 import { IconGold } from '@/shared/components/Icon'
 import SensitivitySettings from './SensitivitySettings.vue'
-import { CLICKER_CONFIG, useAudioAnalysis, useCards, useCatClickerStore } from 'entities/Wallet/wallet-balance/CatClicker'
+import { CLICKER_CONFIG } from '../config/clickerConfig'
+import { useAudioAnalysis } from '../composables/useAudioAnalysis'
+import { useCards } from '../composables/useCards'
+import { useCatClickerStore } from '../model/cat-clicker-store'
 import ConfigPanel from './ConfigPanel.vue'
 import { useTranslation } from '@/shared/lib/i18n'
 const store = useCatClickerStore()

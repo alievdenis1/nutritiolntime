@@ -37,8 +37,8 @@
 </template>
 
 <script setup lang="ts">
-import { CLICKER_CONFIG } from 'entities/Wallet/wallet-balance/CatClicker'
-import { useCatClickerStore } from 'entities/Wallet/wallet-balance/CatClicker'
+import { CLICKER_CONFIG } from '../config/clickerConfig'
+import { useCatClickerStore } from '../model/cat-clicker-store'
 import { storeToRefs } from 'pinia'
 
 const store = useCatClickerStore()

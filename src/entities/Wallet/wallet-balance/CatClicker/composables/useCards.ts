@@ -1,6 +1,7 @@
 import { ref } from 'vue'
-import { useCatClickerStore, CLICKER_CONFIG } from 'entities/Wallet/wallet-balance/CatClicker'
-import { Card } from 'entities/Wallet/wallet-balance'
+import { useCatClickerStore } from '../model/cat-clicker-store'
+import { CLICKER_CONFIG } from '../config/clickerConfig'
+import { Card } from '../../types'
 
 export const useCards = () => {
     const store = useCatClickerStore()

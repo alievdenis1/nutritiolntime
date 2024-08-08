@@ -1,5 +1,6 @@
 import { ref, computed } from 'vue'
-import { useCatClickerStore, CLICKER_CONFIG } from 'entities/Wallet/wallet-balance/CatClicker'
+import { useCatClickerStore } from '../model/cat-clicker-store'
+import { CLICKER_CONFIG } from '../config/clickerConfig'
 
 export const useAudioAnalysis = () => {
     const store = useCatClickerStore()

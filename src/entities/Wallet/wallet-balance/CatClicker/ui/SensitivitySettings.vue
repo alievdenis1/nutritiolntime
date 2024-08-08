@@ -44,7 +44,8 @@
 import { ref, onMounted } from 'vue'
 import { TabsMain, TabsContent, TabsList, TabsTrigger } from '@/shared/components/ui/tabs'
 import SensitivityCell from './SensitivityCell.vue'
-import { useCatClickerStore, CLICKER_CONFIG } from 'entities/Wallet/wallet-balance/CatClicker'
+import { useCatClickerStore } from '../model/cat-clicker-store'
+import { CLICKER_CONFIG } from '../config/clickerConfig'
 
 const store = useCatClickerStore()
 
